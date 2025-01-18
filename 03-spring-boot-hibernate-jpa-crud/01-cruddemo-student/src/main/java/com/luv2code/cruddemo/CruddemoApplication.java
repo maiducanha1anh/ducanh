@@ -32,7 +32,7 @@ public class CruddemoApplication {
 		Student tempStudent3 = new Student("Bonita","Applebum","bonita@luv2code.com");
 
 		// save the student objects
-		System.out.println("Saving the students ....");
+		System.out.println("Saving the students ...");
 		studentDAO.save(tempStudent1);
 		studentDAO.save(tempStudent2);
 		studentDAO.save(tempStudent3);
